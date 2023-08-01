@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header second-header">
+            <nav class="header__navigation">
+                <div class="container">
+                    <div class="header__inner">
+                        <a href="index.html" class="header__logo-link">
+                            <img src="images/header-log.svg" alt="" class="header__logo">
+                        </a>
+                        <ul class="header__navigation-list">
+                            <li class="header__navigation-item">
+                                <a href="index.html" class="header__navigation-link">ГЛАВНАЯ</a>
+                            </li>
+                            <li class="header__navigation-item">
+                                <a href="catalog.html" class="header__navigation-link">КАТАЛОГ ПРОДУКЦИИ</a>
+                            </li>
+                            <li class="header__navigation-item active">
+                                <a href="" class="header__navigation-link">ПОДБОР ПРОГРАММЫ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="forms">
+                <div class="container">
+                    <h1 class="forms__title">Подбор программы</h1>
+                    <p class="forms__desc">Заполните анкету, и мы подберем
+                        программу питания для вашего кота
+                    </p>
+                    <div class="forms__wrapper">
+                        <div class="forms__inputs-wrapper">
+                            <div class="forms__name">
+                                <label for="name" class="forms__name-label">ИМЯ:*</label>
+                                <input type="text" id="name" class='forms__name-input'>
+                            </div>
+                            <div class="forms__weight">
+                                <label for="weight" class="forms__weight-label">Вес (кг):*</label>
+                                <input type="text" id="weight" class='forms__weight-input'>
+                            </div>
+                            <div class="forms__age">
+                                <label for="age" class="forms__age-label">Возраст (лет):</label>
+                                <input type="text" id="age" class='forms__age-input'>
+                            </div>
+                        </div>
+                        <div class="forms__radio">
+                            <form action="">
+                                <label id="option-3" for="option-1">
+                                    <input name="2" class="forms__radio-input" type="radio">
+                                    похудение
+                                </label>
+                                <label for="option-2">
+                                    <input id="option-3" class="forms__radio-input" name="2" type="radio">
+                                    Набор массы
+                                </label>
+                                <label for="option-3">
+                                    <input id="option-3" class="forms__radio-input" name="2" type="radio">
+                                    Не знаю (Нужен ваш совет)
+                                </label>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section class="contacts">
+                <div class="container">
+                    <h2 class="contacts__title">Контактные данные (владельца кота)</h2>
+                    <div class="contacts__form">
+                        <label id="option-3" for="email">
+                            E-mail:*
+                            <input name="2" class="contacts__form-email" type="text">
+                            <img class="contacts__image" src="images/email.png" alt="">
+                        </label>
+                        <label id="option-3" for="email">
+                            Телефон:*
+                            <input name="2" class="contacts__form-tel" type="text">
+                            <img class="contacts__image" src="images/exit.png" alt="">
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </section>
+            <section class="comment">
+                <div class="container">
+                    <h2 class="comment__title">Комментарий</h2>
+                    <textarea class="comment__form" id="" cols="30" rows="10"
+                        placeholder="РАССКАЖИТЕ ОБО ВСЕХ ПОВАДКАХ КОТА"></textarea>
+                </div>
+            </section>
+            <section class="additional">
+                <div class="container">
+                    <h2 class="additional__title">Дополнительно</h2>
+                    <form action="" class="additional__form">
+                        <label for="sugaer-free">
+                            <input class="addtional__form-input" id="sugaer-free" type="checkbox" value="sugar-free">
+                            сахарозаменитель
+                        </label>
+                        <label for="water">
+                            <input class="addtional__form-input" id="water" type="checkbox" value="water">
+                            питьевая вода
+                        </label>
+                        <label for="milk">
+                            <input class="addtional__form-input" id="milk" type="checkbox" value="milk">
+                            молоко
+                        </label>
+                        <label for="vitamins">
+                            <input class="addtional__form-input" id="vitamins" type="checkbox" value="vitamins">
+                            витамины
+                        </label>
+                    </form>
+                    <div class="additional__submit">
+                        <button class="additional__submit-button" type="button">отправить заявку</button>
+                        <p class="additional__submit-desc">* — Обязательные поля</p>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section class="position">
+                <div class="container position-container">
+                    <iframe class="position__image" title="Map with the location of the sales office"
+                        class="contacts__map"
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A66f64247d09b87daf4706806394599fb09d0975dc945b350bec5e0953004a6be&amp;source=constructor"
+                        width="100%" height="400" frameborder="0"></iframe>
+                    <div class="container">
+                        <div class="position-wrapper">
+                            <h2 class="position__title">
+                                Приглашаем <br>
+                                к сотрудничеству
+                                дилеров!
+                            </h2>
+                            <p class="position__text">
+                                ул. Большая <br>
+                                Конюшенная, д. 19/8
+                                <span>Санкт-Петербург</span>
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <img src="images/footer-logo.png" alt="" class="footer__image">
+                    <ul class="footer__media-list">
+                        <li class="footer__media-item">
+                            <a href="#" class="footer__media-link">
+                                <img class="footer__media-icon" src="images/vk.png" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__media-item">
+                            <a href="#" class="footer__media-link">
+                                <img class="footer__media-icon" src="images/inst.png" alt="">
+                            </a>
+                        </li>
+                        <li class="footer__media-item">
+                            <a href="#" class="footer__media-link">
+                                <img class="footer__media-icon" src="images/facebook.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <img class="footer__academy" src="images/logo_html.png" alt="">
+
+                </div>
+            </div>
+
+        </footer>
+        <script src="js/scripts.js"></script>
+    </div>
+</body>
+
+</html>
