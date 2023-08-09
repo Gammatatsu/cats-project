@@ -18,9 +18,21 @@
             <nav class="header__navigation">
                 <div class="container">
                     <div class="header__inner">
+                        <div class="header__mobile">
+                            <img class="header__mobile-logo" src="images/logo-moblile.svg" alt="">
+                            <img src="images/text-logo-mobile.svg" alt="" class="header__mobile-text">
+                            <button class="header__mobile-button ">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
                         <a href="index.html" class="header__logo-link">
                             <img src="images/header-log.svg" alt="" class="header__logo">
                         </a>
+                        <a href="index.html" class="header__logo-tablet">
+                            <img src="images/logo-tablet.png" alt="" class="header__logo-tablet">
+                        </a> 
                         <ul class="header__navigation-list">
                             <li class="header__navigation-item">
                                 <a href="index.html" class="header__navigation-link">ГЛАВНАЯ</a>
@@ -83,14 +95,14 @@
                 <div class="container">
                     <h2 class="contacts__title">Контактные данные (владельца кота)</h2>
                     <div class="contacts__form">
-                        <label id="option-3" for="email">
+                        <label id="email-form" for="email">
                             E-mail:*
-                            <input name="2" class="contacts__form-email" type="text">
+                            <input id="email" name="2" class="contacts__form-email" type="text">
                             <img class="contacts__image" src="images/email.png" alt="">
                         </label>
-                        <label id="option-3" for="email">
+                        <label id="tel-form" for="tel">
                             Телефон:*
-                            <input name="2" class="contacts__form-tel" type="text">
+                            <input id="tel" name="2" class="contacts__form-tel" type="text">
                             <img class="contacts__image" src="images/exit.png" alt="">
 
                         </label>
@@ -190,8 +202,8 @@
             </div>
 
         </footer>
-        <script src="js/scripts.js"></script>
     </div>
+    <script async src="js/scripts.js"></script>
 </body>
 
 </html>

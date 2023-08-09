@@ -15,15 +15,24 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            <nav class="header__navigation">
+            <nav class="header__navigation header__navigation-first">
                 <div class="container">
                     <div class="header__inner">
                         <a href="index.html" class="header__logo-link">
                             <img src="images/header-log.svg" alt="" class="header__logo">
                         </a>
-                        <!-- <a href="index.html" class="header__logo-tablet">
+                        <a href="index.html" class="header__logo-tablet">
                             <img src="images/logo-tablet.png" alt="" class="header__logo-tablet">
-                        </a> -->
+                        </a>
+                        <div class="header__mobile">
+                            <img class="header__mobile-logo" src="images/logo-moblile.svg" alt="">
+                            <img src="images/text-logo-mobile.svg" alt="" class="header__mobile-text">
+                            <button class="header__mobile-button ">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div> 
                         <ul class="header__navigation-list">
                             <li class="header__navigation-item active">
                                 <a href="index.html" class="header__navigation-link">ГЛАВНАЯ</a>
@@ -172,7 +181,7 @@
                         src="https://yandex.ru/map-widget/v1/?um=constructor%3A66f64247d09b87daf4706806394599fb09d0975dc945b350bec5e0953004a6be&amp;source=constructor"
                         width="100%" height="400" frameborder="0"></iframe>
                     <div class="container">
-                        <div class="position-wrapper">
+                        <div class="position-wrapper first">
                             <h2 class="position__title">
                                 Приглашаем <br>
                                 к сотрудничеству
@@ -219,8 +228,8 @@
             </div>
 
         </footer>
-        <script src="js/scripts.js"></script>
     </div>
+    <script async src="js/scripts.js"></script>
 </body>
 
 </html>
